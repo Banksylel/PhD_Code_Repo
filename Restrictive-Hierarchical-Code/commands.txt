@@ -1,0 +1,12 @@
+
+Train UNet
+
+"--save-path", "F:/Github Repos/Restrictive-Hierarchical-Code/runs","--data-root", "D:/Datasets Main/5. tooth layer segmentation/TL_pano/semantic/5_fold" ,"--val-dataset", "D:/Datasets Main/5. tooth layer segmentation/TL_pano/semantic/5_fold" ,"--tree-root", "F:/Github Repos/Restrictive-Hierarchical-Code/class_tree_tl.json", "--class-map", "F:/Github Repos/Restrictive-Hierarchical-Code/class_map.csv", "--model-weights", "F:/Github Repos/Restrictive-Hierarchical-Code/unet_carvana_scale1.0_epoch2.pth","--batch-size", "4" ,"--val-batch", "4","--img-size", "620","--test-remove", "True","--epochs", "100","--num-workers", "0","--save-images-batch", "True","--save-images-batch-num", "5","--no-ph-weights", "True","--hierarchical-loss", "False", "--learning-rate", "[0.01]", "--learning-rate-scheduler-minimum", "0.001", "--model-type", "0", "--model-select", "0" , "--inc-cross-val", "True", "--folds", "5"
+
+
+Eval UNet
+
+
+
+Train HRNet
+
